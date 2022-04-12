@@ -1,0 +1,53 @@
+/*Default box-sizing and margin padding for all element*/
+*, ::after, ::before{
+  box-sizing: inherit;
+  margin:0;
+  padding:0;
+}
+
+html {
+  box-sizing:border-box;
+}
+/*Background */
+body {
+  background-image: linear-gradient(to right, #0ba360 0%, #3cba92 100%);
+}
+
+.container {
+  margin-top:200px;
+  text-align:center;
+}
+/* Heading text design*/
+.container h2 {
+  color:#A50F50;
+  margin-bottom:20px;
+  font-weight: bold;
+  font-size:30px;
+}
+/* Design inputbox and convert button*/
+.design {
+  margin:15px;
+  padding:15px 25px;
+  font-size:20px;
+  outline: none;
+  border:none;
+  border-radius:5px;
+}
+/*Design result button*/
+.resultbtn {
+  display:block;
+  margin:auto;
+  margin-top:20px;
+  padding:15px 25px;
+  background-color: #A50F50;
+  color:whitesmoke;
+  outline:none;
+  border:none;
+  border-radius:5px;
+  font-weight: bold;
+  font-size:20px;
+}
+/* Default value hidden*/
+#result {
+  visibility: hidden;
+}
